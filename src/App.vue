@@ -77,7 +77,7 @@ onBeforeUnmount(() => { requestId++; controller?.abort() })
   <main id="top">
     <section class="hero" aria-labelledby="hero-title">
       <p class="eyebrow">LIVE MOVIE DATA FROM TMDB</p>
-      <h1 id="hero-title">Your next story<br>starts here.</h1>
+      <h1 id="hero-title">Your next story (by auto deploy)<br>starts here.</h1>
       <p>Browse popular movies from TMDB.</p>
       <form v-if="!apiKey" class="key-form" @submit.prevent="connect">
         <label for="tmdb-key">TMDB API Key (v3)</label>
